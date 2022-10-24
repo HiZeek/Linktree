@@ -1,0 +1,21 @@
+footer {
+    padding: 48px 32px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #EAECF0;
+    padding-top: 32px;
+}
+
+.hng-img {
+    width: 187.59px;
+    height: 32px;
+}
+
+.i4g-img {
+    width: 132.13pxpx;
+    height: 32px;
+}

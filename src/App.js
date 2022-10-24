@@ -1,9 +1,14 @@
+import { Fragment } from "react";
+import Container from "./components/ui/Container";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Fragment>
+      <Container>
+        <Footer />
+      </Container>
+    </Fragment>
   );
 }
 
