@@ -1,0 +1,11 @@
+.socials {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.socials > a > img {
+    width: 24px;
+    height: 24px;
+}

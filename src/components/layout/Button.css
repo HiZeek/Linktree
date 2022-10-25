@@ -1,4 +1,5 @@
 .btn-container {
+  cursor: pointer;
   background-color: #eaecf0;
   text-align: center;
   padding: 24px 0;
@@ -8,6 +9,11 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
+}
+
+.btn-container:hover {
+  background-color: #d0d5dd;
+  border: 1px solid #d0d5dd;
 }
 
 a {
