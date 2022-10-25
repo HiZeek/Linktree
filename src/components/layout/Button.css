@@ -1,0 +1,20 @@
+.btn-container {
+  background-color: #eaecf0;
+  text-align: center;
+  padding: 24px 0;
+  margin-bottom: 24px;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: #101828;
+}
+
+ul > li {
+  list-style: none;
+}

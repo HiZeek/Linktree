@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import Container from "./components/ui/Container";
-import Footer from "./components/layout/Footer";
+import Profile from "./components/pages/Profile";
 
 function App() {
   return (
     <Fragment>
       <Container>
-        <Footer />
+        <Profile />
       </Container>
     </Fragment>
   );
