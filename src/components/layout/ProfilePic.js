@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ProfilePics from "../assets/profileimg.png";
 import Camera from "../assets/camera.png";
 import ShareBtn from "../assets/share.png";
+import ShareBtnMobile from "../assets/sharemobile.png";
 import "./ProfilePic.css";
 
 const ProfilePic = () => {
@@ -19,6 +20,7 @@ const ProfilePic = () => {
       </div>
       <div className="profile-share-container" onClick={() => setClick(!click)}>
         <img src={ShareBtn} alt="share profile" className="profile-share" />
+        <img src={ShareBtnMobile} alt="share profile" className="profile-share-mobile" />
         {click && <div className="share-border"></div>}
       </div>
     </section>

@@ -4,7 +4,7 @@ import './Button.css';
 const Button = () => {
   const btnList = [
     {
-      id: "twitter",
+      id: "btn__twitter",
       path: "https://twitter.com/IsaacIdibia",
       name: "Twitter",
     },
@@ -16,22 +16,22 @@ const Button = () => {
     {
       id: "books",
       path: "http://books.zuri.team/",
-      name: "Zuri Books",
+      name: "This is where you find books about design and coding",
     },
     {
       id: "book__python",
-      path: "https://books.zuri.team/",
+      path: "https://books.zuri.team/python-for-beginners?ref_id=HiZeek",
       name: "Python Books",
     },
     {
       id: "pitch",
       path: "https://background.zuri.team/",
-      name: "Background Check for Coders",
+      name: "Want a Background Check for Coders? Click Now!",
     },
     {
       id: "book__design",
       path: "https://books.zuri.team/design-rules",
-      name: "Design Books",
+      name: "Get a Free Design Book from Zuri",
     },
   ];
 

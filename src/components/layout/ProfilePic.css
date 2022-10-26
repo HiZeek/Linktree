@@ -1,5 +1,6 @@
 .profile {
   position: relative;
+  margin-bottom: 56px;
 }
 
 .profile-pic {
@@ -61,29 +62,66 @@
 }
 
 .profile-share-container > .share-border {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-  }
+  position: absolute;
+  cursor: pointer;
+  top: 0.5px;
+  right: -0.5px;
+}
 
 .share-border {
-  border: 5px solid #d0d5dd;
+  box-shadow: 0px 0px 0px 4px #f2f4f7;
   border-radius: 50%;
 }
 
-.profile-share, .share-border {
+.profile-share-mobile {
+  display: none;
+}
+
+.profile-share,
+.profile-share-mobile,
+.share-border {
   width: 40px;
   height: 40px;
 }
 
-#twitter {
+#twitter,
+#slack {
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
   color: #101828;
-  margin-bottom: 56px;
 }
 
 #slack {
   display: none;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width: 1000px) {
+  .profile-share-container {
+    top: -20px;
+    right: 70px;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .profile-share-container {
+    top: -5px;
+    right: 15px;
+  }
+
+  .profile-share-mobile {
+    display: block;
+  }
+
+  .profile-share {
+    display: none;
+  }
+
+  #twitter,
+  #slack {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }

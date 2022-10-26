@@ -1,4 +1,38 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* BREAKPOINTS */
+/* Large Screens */
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 350px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
 }

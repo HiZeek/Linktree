@@ -24,3 +24,13 @@ a {
 ul > li {
   list-style: none;
 }
+
+/* BREAKPOINTS */
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .btn-container {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

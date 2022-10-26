@@ -9,7 +9,7 @@ const Footer = () => {
     <footer>
       <div className="footer-container">
         <img src={Logo} alt="HNG" className="hng-img" />
-        <p>HNG Internship 9 Frontend Task</p>
+        <p className="footer-text">HNG Internship 9 Frontend Task</p>
         <img src={I4G} alt="Ingressive" className="i4g-img" />
       </div>
     </footer>
