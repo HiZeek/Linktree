@@ -16,7 +16,7 @@ const Button = () => {
     {
       id: "books",
       path: "http://books.zuri.team/",
-      name: "This is where you find books about design and coding",
+      name: "Zuri Books - this is where you find books about design and coding",
     },
     {
       id: "book__python",
