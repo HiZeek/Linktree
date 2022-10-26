@@ -1,0 +1,89 @@
+.profile {
+  position: relative;
+}
+
+.profile-pic {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  align-items: center;
+}
+
+.profile-pic-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+#profile__img {
+  width: 88px;
+  height: 88px;
+}
+
+.profile-bg {
+  display: none;
+  position: absolute;
+  border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  background: linear-gradient(
+    0deg,
+    rgba(52, 64, 84, 0.75),
+    rgba(52, 64, 84, 0.75)
+  );
+  z-index: 40;
+}
+
+.profile-camera {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 19px;
+  z-index: 50;
+  bottom: 8px;
+}
+
+.profile-pic-container:hover > .profile-camera {
+  display: block;
+}
+
+.profile-pic-container:hover > .profile-bg {
+  display: block;
+}
+
+.profile-share-container {
+  position: absolute;
+  cursor: pointer;
+  top: -20px;
+  right: 200px;
+}
+
+.profile-share-container > .share-border {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+  }
+
+.share-border {
+  border: 5px solid #d0d5dd;
+  border-radius: 50%;
+}
+
+.profile-share, .share-border {
+  width: 40px;
+  height: 40px;
+}
+
+#twitter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #101828;
+  margin-bottom: 56px;
+}
+
+#slack {
+  display: none;
+}
