@@ -15,7 +15,7 @@ const ProfilePic = () => {
           <img src={ProfilePics} alt="profile-Pic" id="profile__img" />
           <img src={Camera} alt="camera" className="profile-camera" />
         </div>
-        <p id="twitter">HiZeek.js</p>
+        <p id="twitter">@IsaacIdibia</p>
         <p id="slack">HiZeek</p>
       </div>
       <div className="profile-share-container" onClick={() => setClick(!click)}>
