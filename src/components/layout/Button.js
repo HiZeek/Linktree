@@ -1,5 +1,6 @@
 import React from "react";
-import './Button.css';
+import { Link } from "react-router-dom";
+import "./Button.css";
 
 const Button = () => {
   const btnList = [
@@ -33,13 +34,24 @@ const Button = () => {
       path: "https://books.zuri.team/design-rules",
       name: "Get a Free Design Book from Zuri",
     },
+    {
+      id: "contact",
+      path: "/contact",
+      name: "Contact Me",
+    },
   ];
 
   const btns = btnList.map((btn) => (
     <li key={btn.id} id={btn.id} className="btn-container">
-      <a href={btn.path} target="_blank" rel="noreferrer">
-        {btn.name}
-      </a>
+      {btn.id !== "contact" ? (
+        <a href={btn.path} target="_blank" rel="noreferrer">
+          {btn.name}
+        </a>
+      ) : (
+        <Link to={btn.path}>
+          {btn.name}
+        </Link>
+      )}
     </li>
   ));
 
