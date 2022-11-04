@@ -18,3 +18,10 @@ body {
 code {
   font-family: "Inter", sans-serif;
 }
+
+h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
+}

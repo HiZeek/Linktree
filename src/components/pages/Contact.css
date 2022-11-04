@@ -1,0 +1,153 @@
+.contact-main {
+  width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+  margin-top: 20px;
+  margin-bottom: 48px;
+}
+
+.contact-form {
+  width: 720px;
+}
+
+.contact-form-name-input {
+  display: flex;
+  column-gap: 24px;
+  margin-bottom: 24px;
+}
+
+.name-input,
+.contact-form-email-input,
+.contact-form-text-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+
+.name-input > label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.name-input > input,
+.contact-form-email-input > input,
+.contact-form-text-input > textarea {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+  outline: none;
+  padding: 10px 14px;
+}
+
+.name-input > input,
+.contact-form-email-input > input {
+  height: 44px;
+}
+
+.name-input > input {
+  width: 348px;
+}
+
+.contact-form-email-input,
+.contact-form-text-input {
+  margin-bottom: 24px;
+}
+
+.contact-form-email-input > input,
+.contact-form-text-input > input {
+  width: 100%;
+}
+
+.contact-form-text-input > textarea {
+  resize: none;
+}
+
+.contact-form-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  margin-right: 12px;
+}
+
+.contact-form-button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #1570ef;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+  margin-top: 34px;
+  cursor: pointer;
+}
+
+/* BREAKPOINTS */
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .contact-main {
+    width: 576px;
+  }
+
+  .contact-form {
+    width: 576px;
+    margin: 0 auto;
+  }
+
+  .contact-form-name-input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form-name-input > .name-input:first-child {
+    margin-bottom: 24px;
+  }
+
+  .name-input > input {
+    width: 576px;
+  }
+
+  .contact-form-button {
+    width: 100%;
+  }
+
+  .contact-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-main {
+    width: 350px;
+  }
+
+  .contact-form {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .name-input > input {
+    width: 350px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    max-width: 250px;
+  }
+}

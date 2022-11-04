@@ -3,6 +3,7 @@ import Container from "./components/ui/Container";
 import Profile from "./components/pages/Profile";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./components/pages/Contact";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Route exact path="/" element={<Profile />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
+          <Footer />
         </Container>
       </Router>
     </Fragment>
