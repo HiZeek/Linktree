@@ -75,8 +75,8 @@
   resize: none;
 }
 .contact-form-checkbox-input {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .contact-form-checkbox {
@@ -153,7 +153,16 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .container {
+  .contact-main {
     max-width: 250px;
+  }
+
+  .name-input > input {
+    width: 250px;
+  }
+
+  .contact-form {
+    width: 250px;
+    margin: 0 auto;
   }
 }
