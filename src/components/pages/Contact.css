@@ -87,7 +87,7 @@
   margin-right: 12px;
 }
 
-.contact-form-button {
+#btn_submit {
   width: 100%;
   padding: 12px 0;
   background-color: #1570ef;
@@ -124,10 +124,6 @@
 
   .name-input > input {
     width: 576px;
-  }
-
-  .contact-form-button {
-    width: 100%;
   }
 
   .contact-text {

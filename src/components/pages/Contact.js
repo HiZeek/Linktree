@@ -47,7 +47,7 @@ const Contact = () => {
             You agree to providing your data to flutterwave who may contact you.
           </label>
         </div>
-        <button className="contact-form-button">Send message</button>
+        <button id="btn_submit">Send message</button>
       </form>
     </main>
   );
