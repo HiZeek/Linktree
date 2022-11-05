@@ -20,10 +20,6 @@ footer {
   height: 32px;
 }
 
-.footer-text {
-    text-align: center;
-}
-
 /* BREAKPOINTS */
 /* For medium devices */
 @media screen and (max-width: 768px) {
